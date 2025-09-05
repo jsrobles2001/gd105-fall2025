@@ -4,6 +4,6 @@ float rad = radians(deg); // degree to radian convertion (I never did this befor
 noFill();
 strokeWeight(0.50);
 circle(67.5, 125, 50);
-triangle(20, 20, 50, 50, 60, 60);
+triangle(50, 37.5, 12.5, 50, 37.5, 12.5);
 rotate(rad);
 rect(90, -55, 50, 50);
