@@ -7,9 +7,11 @@
   ><g style="stroke-linecap:round;"
     ><circle r="100" style="fill:none;" cx="192" cy="288"
     /></g
-    ><g style="stroke-linecap:round;" transform="translate(150,230) rotate(1368)"
-    ><path style="fill:none;" d="M40 2 A50 45 0 1 1 -25.4509 -40.7975"
-      /><path d="M-85 140 A45 50 0 1 1 -150.4296 95.4497" style="fill:none;" transform="translate(150,230) rotate(90)"
+    ><g style="stroke-linecap:round;"
+    ><circle r="25" style="fill:none;" cx="155" cy="235"
+      /><circle r="25" style="fill:none;" cx="245" cy="245"
+      /><path d="M40 2 A50 45 0 1 1 -25.4509 -40.7975" style="fill:none;" transform="translate(150,230) rotate(1368)"
+      /><path d="M-85 140 A45 50 0 1 1 -150.4296 95.4497" style="fill:none;" transform="translate(150,230) rotate(1368) translate(150,230) rotate(90)"
     /></g
   ></g
 ></svg
