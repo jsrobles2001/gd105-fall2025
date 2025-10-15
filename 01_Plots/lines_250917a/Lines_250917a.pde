@@ -5,7 +5,7 @@ size(384, 576); //small postcard size
 }
 
 void draw(){
-  beginRecord(SVG, "greenPuyoBean.svg");
+  beginRecord(SVG, "lines.svg");
   noFill();
   line(100, 60, 100, 160); // 1st set of horiziontal lines
   line(110, 60, 110, 160);
