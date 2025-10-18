@@ -18,13 +18,13 @@ PImage photo_16;
 
 
 void setup() {
-  
-  
+  size(700, 700);
+  rain = loadImage("rain.jpeg");
   
 }
 
 void draw() {
-  
-  
+  tint(255, 128);
+  image(rain, 0, 0);
   
 }
