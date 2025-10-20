@@ -17,7 +17,6 @@ void setup() {
   photo6 = loadImage("image5.png");
   photo7 = loadImage("image6.png");
   photo8 = loadImage("image7.png");
-  
 }
 
 void draw() {
@@ -29,5 +28,4 @@ void draw() {
   image(photo6, 0, 0);
   image(photo7, 0, 0);
   image(photo8, 0, 0);
-  
 }
