@@ -28,4 +28,12 @@ void draw() {
   image(photo6, 0, 0);
   image(photo7, 0, 0);
   image(photo8, 0, 0);
+  image(photo1, 0, 0);
+  image(photo2, 0, 0);
+  image(photo3, 0, 0);
+  image(photo4, 0, 0);
+  image(photo5, 0, 0);
+  image(photo6, 0, 0);
+  image(photo7, 0, 0);
+  image(photo8, 50, 0);
 }
