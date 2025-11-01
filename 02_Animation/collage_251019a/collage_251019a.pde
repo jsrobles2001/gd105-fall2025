@@ -8,8 +8,6 @@ PImage photo6;
 PImage photo7;
 PImage photo8;
 PImage photo9;
-PImage photo10;
-PImage photo11;
 
 void setup() {
   size(500, 500);
@@ -21,14 +19,12 @@ void setup() {
   photo6 = loadImage("image5.png"); // mouth four
   photo7 = loadImage("image6.png"); // mouth five
   photo8 = loadImage("image7.png"); // mouth six
-  photo9 = loadImage("image8.png"); // plant one
-  photo10 = loadImage("image9.png"); // plant two
-  photo11 = loadImage("image10.png"); // plant three
+  photo9 = loadImage("image8.png"); // background
   
 }
 
 void draw() {
-  image(photo1, 0, 0);
+  image(photo1, 0, 0); 
   image(photo2, 0, 0);
   image(photo3, 0, 0);
   image(photo4, 0, 0);
@@ -36,4 +32,5 @@ void draw() {
   image(photo6, 0, 0);
   image(photo7, 0, 0);
   image(photo8, 0, 0);
+  image(photo9, 0, 0);
 }
