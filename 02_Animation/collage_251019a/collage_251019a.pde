@@ -2,7 +2,6 @@
 ~~TO DO~~
 
 * make circle transparent with tint()
-* make background wiggle when it's in the circle and normal when it's not
 * make circle zoom in and out to make a looping gif
 
 */
