@@ -1,25 +1,23 @@
-/*
-~~TO DO~~
-
-* make circle transparent with tint()
-* make circle zoom in and out to make a looping gif
-
-*/
-
+// declaration
 int x;
 int y;
-PImage park; // background variable
+PImage goddess;
+PImage park;
+PImage arcade;
+PImage Hostos;
+PImage chips;
 
 void setup() {
   size(500, 500);
-  park = loadImage("image8.png"); // background initialize
-  x = width;
-  y = height;
+  // initialize
+  park = loadImage("image8.png"); 
+  goddess = loadImage("goddess.png"); // 
 }
 
 void draw() {
-  image(park, 0, 0, 500, 500); // display image
+  // display images
+  image(park, 0, 0, 500, 500);
+  image(goddess, 0, 0, 500, 500);
   noStroke();
   fill(#0095a9); // I like hex values (RGB = 00, 00, 00 for red, green, and blue)
-  circle(x / 2, y / 2, 50); // transparent circle
 }
