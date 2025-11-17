@@ -1,3 +1,4 @@
+// I ran out of time...
 // declaration
 int x;
 int y;
@@ -11,7 +12,7 @@ void setup() {
   size(500, 500);
   // initialize
   park = loadImage("image8.png"); 
-  goddess = loadImage("goddess.png"); // 
+  goddess = loadImage("goddess.png");
 }
 
 void draw() {
