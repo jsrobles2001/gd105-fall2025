@@ -1,6 +1,7 @@
 // VARIABLES
-int value = 25;
-int[] boxes = new int[20]; // everytime you use this, you have to use it like an array
+int value = 25; // color (grey)
+float xSpacing = 62.5;
+int buttons = 11;
 
 void setup() {
   size(777, 777);
@@ -8,10 +9,23 @@ void setup() {
 }
 
 void draw() {
-  noStroke();
+  noFill();
+  stroke(#cf6fef);
+  rect(125, 50, 625, 400);
   fill(value);
-  for(int i = 0; i <= boxes[19]; i += 25); // boxes is used like an array
-  rect(25, 25, 50, 50);
+  noStroke();
+  // red buttons
+  for(int i = 3; i <= buttons; i++){ // boxes is used like an array
+  float xPos = i * xSpacing;
+  circle(xPos, 100, 50);
+  }
+  // green buttons
+  
+  // blue buttons
+  
+  // mouse mapping
+  // dist()
+  
 }
 
 // this function activates just by clicking it
