@@ -1,7 +1,7 @@
 // VARIABLES
 int value = 25; // color (grey)
-float xSpacing = 62.5;
 int buttons = 11;
+float xSpacing = 62.5;
 PImage bg;
 
 void setup() {
