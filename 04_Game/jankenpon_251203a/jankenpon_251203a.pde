@@ -1,5 +1,8 @@
 // 
-// 
+// VARIABLES
+
+// ENUMS
+
 
 void setup() {
   
