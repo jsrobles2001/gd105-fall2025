@@ -1,5 +1,11 @@
 // VARIABLES
 
+// false by default
+boolean wHeld;
+boolean aHeld;
+boolean sHeld;
+boolean dHeld;
+boolean spaceHeld;
 GameState mode = GameState.TITLE;
 
 // ENUMS
@@ -7,6 +13,7 @@ enum GameState {
   TITLE, GAME, GAMEOVER
 }
 
+// SETUP
 void setup() {
   size(777, 777);
   textAlign(CENTER, CENTER);
@@ -14,16 +21,21 @@ void setup() {
   noStroke();
 }
 
+// DRAWING (LOOP)
 void draw() {
   // DEBUG MODE
-  frameRate(10);
-  println(sHeld);
+  // frameRate(10);
+  // println(sHeld);
+  String largeText = "";
+  String smallText = "";
+  String scoreText = "";
 
+// title screen
   switch(mode) {
   case TITLE:
     background(#00bfff); // sky blue
-    fill(255);
-    rect(0, 700, width, height);
+    fill(255); // white
+    rect(0, 700, width, height); // bar
     // the fractions may be not too balanced on both sides, but it's fine
     fill(#c22222); // brick #b22222
     circle(width / 4.50, 550, 100); // left (rock)
@@ -34,22 +46,21 @@ void draw() {
 
     break;
 
+// gameplay
   case GAME:
   
     break;
 
+// game over
   case GAMEOVER:
     break;
   }
+  
+  // text
+  
 }
 
-// false by default
-boolean wHeld;
-boolean aHeld;
-boolean sHeld;
-boolean dHeld;
-boolean spaceHeld;
-
+// CONTROLS
 void keyPressed() {
   if (key == ' ') {
     spaceHeld = true;
@@ -73,15 +84,15 @@ void keyReleased() {
     spaceHeld = false;
   }
   if (key == 'w' || key == 'W') {
-    
+    wHeld = false;
   }
   if (key == 'a' || key == 'A') {
-    
+    aHeld = false;
   }
   if (key == 's' || key == 'S') {
     sHeld = false;
   }
   if (key == 'd' || key == 'D') {
-    
+    dHeld = false;
   }
 }
