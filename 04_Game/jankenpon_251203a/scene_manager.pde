@@ -8,7 +8,6 @@ class Game {
   Game() {
     // maybe later
   }
-
   // METHOD
   void scenes() {
     // DEBUG MODE
@@ -18,7 +17,6 @@ class Game {
     String largeText = "";
     String smallText = "";
     String scoreText = "";
-
     // title screen
     switch(mode) {
     case TITLE:
@@ -29,7 +27,6 @@ class Game {
         mode = GameState.GAME; // change game mode after pressing space
       }
       break;
-
       // gameplay
     case GAME:
       background(#00bfff); // black screen
@@ -53,14 +50,20 @@ class Game {
       }
       // smallText = "Test";
       break;
-
       // game over
     case GAMEOVER:
       break;
     }
-    
+
     switch(choice) {
-      
+    case SELECTING:
+      break;
+    case ROCK:
+      break;
+    case PAPER:
+      break;
+    case SCISSORS:
+      break;
     }
     fill(0); // black
     textSize(64);

@@ -15,7 +15,7 @@ boolean dHeld; // scissors
 boolean spaceHeld;
 Game sceneManager;
 GameState mode = GameState.TITLE;
-GameOptions choice = GmeOptions.SELECTING;
+GameOptions choice = GameOptions.SELECTING;
 
 // ENUMS
 enum GameState {
