@@ -22,7 +22,7 @@ enum GameState {
   TITLE, GAME, GAMEOVER
 }
 enum GameOptions {
-  SELECTING, ROCK, PAPER, SCISSORS
+  SELECTING, ROCK, PAPER, SCISSORS, TIMESUP
 }
 
 // SETUP
@@ -37,6 +37,7 @@ void setup() {
 // DRAWING (LOOP)
 void draw() {
   sceneManager.scenes();
+  
 }
 
 // CONTROLS

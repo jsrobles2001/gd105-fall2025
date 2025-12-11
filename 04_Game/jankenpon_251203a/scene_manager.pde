@@ -29,6 +29,7 @@ class Game {
       break;
       // gameplay
     case GAME:
+    
       background(#00bfff); // black screen
       largeText = "Pick and Get Ready!";
       smallText = "Rock, Paper, or Scissors?";
@@ -49,12 +50,12 @@ class Game {
         rockSize /= 1.08;
       }
       // smallText = "Test";
+      // choice = GameOptions.SELECTING; // create
       break;
       // game over
     case GAMEOVER:
       break;
     }
-
     switch(choice) {
     case SELECTING:
       break;
