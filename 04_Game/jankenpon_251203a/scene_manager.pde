@@ -29,7 +29,7 @@ class Game {
       break;
       // gameplay
     case GAME:
-    
+
       background(#00bfff); // black screen
       largeText = "Pick and Get Ready!";
       smallText = "Rock, Paper, or Scissors?";
@@ -46,11 +46,11 @@ class Game {
       fill(255); // white
       circle(75, 75, 75); // timer, might need to be an arc
       // srinking
-      if (rockSize > 0) { // if rock isn't choosen + another option not demonstrated
-        rockSize /= 1.08;
-      }
+      // if (rockSize > 0) { // if rock isn't choosen + another option not demonstrated
+      // rockSize /= 1.08;
+      // }
       // smallText = "Test";
-      // choice = GameOptions.SELECTING; // create
+      // choice = GameOptions.SELECTING; // i'm not sure how to tweak this too much
       break;
       // game over
     case GAMEOVER:
@@ -64,6 +64,8 @@ class Game {
     case PAPER:
       break;
     case SCISSORS:
+      break;
+    case TIMESUP:
       break;
     }
     fill(0); // black

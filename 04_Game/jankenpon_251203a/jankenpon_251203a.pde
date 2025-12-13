@@ -1,11 +1,11 @@
 // TO DO
 /*
 * make an opponent that picks one of three options
-* make a bar that can lower and refill based on player loses
-* create a score system
-* make texts and screens look better
-* create enums for each option of rock, paper, or scissors
-*/
+ * make a bar that can lower and refill based on player loses
+ * create a score system
+ * make texts and screens look better
+ * create enums for each option of rock, paper, or scissors
+ */
 // VARIABLES
 
 // false by default
@@ -34,10 +34,9 @@ void setup() {
   sceneManager = new Game();
 }
 
-// DRAWING (LOOP)
+// DRAWING LOOP
 void draw() {
   sceneManager.scenes();
-  
 }
 
 // CONTROLS
